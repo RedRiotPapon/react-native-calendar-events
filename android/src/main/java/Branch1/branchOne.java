@@ -3,20 +3,21 @@ package Branch1;
 public class branchOne {
     int id;
     String Address;
-    String Strandard;
+    int s_Class;
 
-    public branchOne(int id, String address, String strandard) {
+    public branchOne(int id, String address, int s_Class) {
         this.id = id;
         Address = address;
-        Strandard = strandard;
+        this.s_Class = s_Class;
     }
 
-    public String getStrandard() {
-        return Strandard;
+    public void setS_Class(int s_Class) {
+        this.s_Class = s_Class;
     }
 
-    public void setStrandard(String strandard) {
-        Strandard = strandard;
+    public int getS_Class() {
+        return s_Class;
+
     }
 
 
