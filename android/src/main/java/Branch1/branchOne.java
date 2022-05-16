@@ -17,6 +17,7 @@ public class branchOne {
 
     public int getS_Class() {
         return s_Class;
+
     }
 
 
